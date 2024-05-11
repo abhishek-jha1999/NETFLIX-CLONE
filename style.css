@@ -1,0 +1,260 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif       ;
+}
+
+body{
+    background-color: black;
+}
+
+.hero-section{
+    height: 720px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+.bg-img{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.navbar-logo{
+    position: relative;
+    top: 20px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+
+}
+
+.logo-img{
+    height:40px;
+    width:148px;
+    background-image: url("assets/logo.svg");
+    cursor: pointer;
+}
+
+.lang-btn{
+    height: 32px;
+    width: 133px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    font-weight: 200;
+    border: 1px solid white;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+
+.signup-btn{
+    height: 32px;
+    width:76px;
+    border-radius: 4px;
+    background-color: rgba(255, 0, 0, 0.768);
+    cursor: pointer;
+    color: white;
+    font-size: small;
+    padding:5px 10px;
+}
+
+@media (max-width:468px) {
+    .navbar-logo{
+        flex-direction: column;
+
+    }
+    .lang-btn{
+        margin-top: 20px;
+    }
+
+    .nav-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .signup-btn{
+        margin-top: 10px;
+    }
+  
+}
+
+.content-section{
+    color: white;
+    height: 720px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    
+}
+.content-section h1{
+    font-size: 40px;
+}
+
+.text-box{
+    width: 375px;
+    height:56px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: large;
+    padding-left: 15px;
+
+}
+
+.text-submit-btn{
+    height: 56px;
+    width: 209px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.895);
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+form{
+    margin-top: 20px;
+}
+
+/* main area section */
+.mainarea{
+    height: 600px;
+    width:100%;
+    position: relative;
+    top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text-section{
+    color: white;
+    
+}
+
+.picture-section{
+    height: 500px;
+    width: 600px;
+    background-image: url("assets/tv.png");
+}
+
+.video-section{
+    height: 350px;
+    width: 500px;
+    margin-left: 85px;
+    margin-top: 90px;
+    margin-right: 80px;
+    position: absolute;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    .mainarea{
+        flex-direction: column;
+        
+    }
+
+    
+}
+
+hr{
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+
+.feature3-picture{
+    height: 500px;
+    width: 500px;
+    
+}
+.feature4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.feature4-picture{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feature4-text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+
+.feature3-text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+.feature2-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.feature2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.feature1-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.footer-table a{
+    
+    text-decoration: underline white;
+    display: block;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.footer-table{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+    margin-top: 30px;
+}
+
+footer p{
+    color:white;
+    margin-top: 60px;
+    margin-left: 190px;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+
+
+
+
+
+
